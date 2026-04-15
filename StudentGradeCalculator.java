@@ -31,7 +31,7 @@ public class StudentGradeCalculator {
         }
         System.out.println("Grade: HAPPY!!!");
 
-        System.out.println("Grade: HAPPY!!!");
+        System.out.println("Grade: HAPPY!!!!!");
 
 
         sc.close();
