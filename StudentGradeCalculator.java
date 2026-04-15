@@ -31,12 +31,10 @@ public class StudentGradeCalculator {
         }
         System.out.println("Grade: HAPPY!!!");
 
-<<<<<<< HEAD
         System.out.println("Grade: HAPPY!!!");
         System.out.println("Grade: HAPPY!!!!");
-=======
+
         System.out.println("Grade: HAPPY!!!!");
->>>>>>> additional
 
 
         sc.close();
