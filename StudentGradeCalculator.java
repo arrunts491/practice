@@ -29,6 +29,7 @@ public class StudentGradeCalculator {
         } else {
             System.out.println("Grade: Fail");
         }
+        System.out.println("Grade: HAPPY");
 
         sc.close();
     }
