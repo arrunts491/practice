@@ -1,18 +1,9 @@
-import java.util.Scanner;
-
 public class StudentGradeCalculator {
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter marks for Subject 1: ");
-        int s1 = sc.nextInt();
-
-        System.out.print("Enter marks for Subject 2: ");
-        int s2 = sc.nextInt();
-
-        System.out.print("Enter marks for Subject 3: ");
-        int s3 = sc.nextInt();
+        int s1 = 80;
+        int s2 = 75;
+        int s3 = 90;
 
         int total = s1 + s2 + s3;
         double average = total / 3.0;
@@ -20,24 +11,14 @@ public class StudentGradeCalculator {
         System.out.println("Total Marks = " + total);
         System.out.println("Average = " + average);
 
-        if (average >= 90) {
+        if (average >= 90)
             System.out.println("Grade: A");
-        } else if (average >= 75) {
+        else if (average >= 75)
             System.out.println("Grade: B");
-        } else if (average >= 50) {
+        else if (average >= 50)
             System.out.println("Grade: C");
-        } else {
-            System.out.println("Grade: Fail");
-        }
-        System.out.println("Grade: HAPPY!!!");
-
-        System.out.println("Grade: HAPPY!!!");
-        System.out.println("Grade: HAPPY!!!!");
-
-        System.out.println("Grade: HAPPY!!!!");
-
-
-        sc.close();
+        else
+            System.out.println("Fail");
     }
 }
 
