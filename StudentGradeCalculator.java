@@ -19,6 +19,7 @@ public class StudentGradeCalculator {
             System.out.println("Grade: C");
         else
             System.out.println("Fail");
+        System.out.println("!!!");
     }
 }
 
